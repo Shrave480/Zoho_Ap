@@ -1,0 +1,33 @@
+A company buys products from its vendors and sells it to its customers.
+
+The company will buy the products by paying the vendor and then the vendor ships the products. 
+Then the company will receive the products and stores in its stock. Similarly, 
+the company will sell the products by receiving payment from its customers and then 
+deliver the products from its stock.
+
+Develop a stock management system for the company. It will have a list of products 
+and both Incoming and Outgoing goods tracked through Purchase Bilis(PB) and Sales Billis(SB)
+
+PB will have the status of Paid and Received. When the status is moved to Received from Paid, 
+stock should be increased
+
+SB will have the status of Paid and Delivered. When the status is moved to Delivered from Paid, 
+stock should be decreased.
+
+An SB/PB will have multiple products in it
+
+The developed system should be able to generate the below metrics:
+
+Current stock availability of a product
+
+Stock value of a product
+
+Quantity to be received
+
+Quantity needed to deliver the paid SB
+
+Overall stock value of that organization (stock value of all products)
+
+Quantity received for a product during a date range
+
+Quantity delivered for a product during a date range
